@@ -16,10 +16,10 @@
   "main": "imgpixels.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juliangarnier/anime.git"
+    "url": "https://github.com/sadi304/imgpixels"
   },
   "bugs": {
-    "url": "https://github.com/juliangarnier/anime/issues"
+    "url": "https://github.com/sadi304/imgpixels"
   },
   "homepage": "http://sadimahmud.com",
   "files": [
