@@ -5,7 +5,7 @@
    @version: 0.0.1
 */
 
-class ImgPixels {
+export default class ImgPixels {
     constructor(config = {}) {
         Object.assign(this, {
             widthMul: 18,
