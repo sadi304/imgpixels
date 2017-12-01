@@ -1,0 +1,27 @@
+{
+  "name": "imgpixels",
+  "version": "0.0.1",
+  "description": "A small library to make pixels like square from an image",
+  "keywords": [
+    "pixels",
+    "img",
+    "divider",
+    "square",
+    "maker"
+  ],
+  "main": "imgpixels.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliangarnier/anime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliangarnier/anime/issues"
+  },
+  "homepage": "http://sadimahmud.com",
+  "files": [
+    "imgpixels.js",
+    "imgpixels.min.js"
+  ],
+  "author": "Sadi Mahmud",
+  "license": "MIT"
+}
