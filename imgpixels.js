@@ -33,8 +33,8 @@ export default class ImgPixels {
         
         img.addEventListener("load", () => {
             ctx.drawImage(img, 0, 0);
-            for(var i = 0; i<canvas.height; i+=this.sqrWidth) {
-                for(var j = 0; j<canvas.width; j+=this.sqrWidth) {
+            for(var i = 0; i<(this.heightMul * this.sqrWidth); i+=this.sqrWidth) {
+                for(var j = 0; j<(this.widthMul * this.sqrWidth); j+=this.sqrWidth) {
                     var data = ctx.getImageData(j, i, this.sqrWidth, this.sqrWidth);
                     
                     // create a temporary canvas
