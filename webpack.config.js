@@ -11,7 +11,7 @@ module.exports = {
         path: path.resolve(__dirname),
         filename: 'imgpixels.min.js',
         libraryTarget: 'var',
-        library: 'ImgPixelsLibrary',
+        library: 'ImgPixels',
         libraryExport: 'default'
     },
     module: {
